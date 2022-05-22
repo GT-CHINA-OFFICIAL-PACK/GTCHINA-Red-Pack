@@ -1,0 +1,30 @@
+{
+       "forge_marker": 1,
+       "defaults": {
+           "model": "forge:item-layer",
+           "textures": {
+               "layer0": "primal:items/buckets/bucket_cinis_empty",
+               "layer2": "primal:items/buckets/bucket_cinis_filled"
+           },
+           "transform": "forge:default-item"
+       },
+       "variants": {
+           "inventory": {
+               "model": "forge:forgebucket",
+               "textures": {
+                   "base": "primal:items/buckets/bucket_cinis_empty",
+                   "fluid": "forge:items/bucket_fluid",
+                   "cover": "primal:items/buckets/bucket_cinis_filled"
+               },
+               "custom": {
+                   "fluid": "water",
+                   "flipGas": true
+               }
+           },
+           "milk": [{
+               "textures": {
+                   "layer1": "forge:items/bucket_fluid"
+               }
+           }]
+       }
+   }

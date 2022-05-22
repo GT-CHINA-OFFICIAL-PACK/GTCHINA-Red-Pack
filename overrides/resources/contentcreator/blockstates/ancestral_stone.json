@@ -1,0 +1,19 @@
+{
+       "forge_marker": 1,
+       "defaults": {
+         "model": "contentcreator:tinted_cube_all",
+         "transform": "forge:default-block",
+         "textures": { "all": "betterwithaddons:entity/infuser" }
+       },
+       "variants": {
+        "active": {
+          "0": {
+            "textures": { "all": "betterwithaddons:entity/infuser" }
+          },
+          "1": {
+            "textures": { "all": "betterwithaddons:entity/infuser" }
+          }
+        },
+        "inventory": [{}]
+       }
+     }
