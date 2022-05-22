@@ -1,0 +1,163 @@
+{
+       "minecraft": {
+              "version": "1.12.2",
+              "modloaders": [{
+                     "id": "forge-14.23.5.2860",
+                     "primary": true
+              }]
+       },
+       "manifestType": "minecraftModpack",
+       "overrides": "overrides",
+       "manifestVersion": 1,
+       "version": "1.0",
+       "author": "GTCHINA Team",
+       "externalDeps": [],
+       "name": "GTCHINA Red Pack",
+       "files": [
+              {
+                     "projectID": 419286,
+                     "fileID": 3687785,
+                     "required": true
+              },
+              {
+                     "projectID": 434344,
+                     "fileID": 3626352,
+                     "required": true
+              },
+              {
+                     "projectID": 284350,
+                     "fileID": 3533386,
+                     "required": true
+              },
+              {
+                     "projectID": 268326,
+                     "fileID": 2899407,
+                     "required": true
+              },
+              {
+                     "projectID": 294335,
+                     "fileID": 2624990,
+                     "required": true
+              },
+              {
+                     "projectID": 246760,
+                     "fileID": 3289033,
+                     "required": true
+              },
+              {
+                     "projectID": 242818,
+                     "fileID": 2779848,
+                     "required": true
+              },
+              {
+                     "projectID": 622862,
+                     "fileID": 3797310,
+                     "required": true
+              },
+              {
+                     "projectID": 239197,
+                     "fileID": 3795331,
+                     "required": true
+              },
+              {
+                     "projectID": 284973,
+                     "fileID": 3758733,
+                     "required": true
+              },
+              {
+                     "projectID": 557242,
+                     "fileID": 3784798,
+                     "required": true
+              },
+              {
+                     "projectID": 557549,
+                     "fileID": 3801373,
+                     "required": true
+              },
+              {
+                     "projectID": 223094,
+                     "fileID": 2482481,
+                     "required": false
+              },
+              {
+                     "projectID": 460609,
+                     "fileID": 3801417,
+                     "required": true
+              },
+              {
+                     "projectID": 74924,
+                     "fileID": 2713386,
+                     "required": true
+              },
+              {
+                     "projectID": 220954,
+                     "fileID": 3488553,
+                     "required": true
+              },
+              {
+                     "projectID": 60089,
+                     "fileID": 3359843,
+                     "required": false
+              },
+              {
+                     "projectID": 253211,
+                     "fileID": 3308160,
+                     "required": true
+              },
+              {
+                     "projectID": 247907,
+                     "fileID": 2734701,
+                     "required": true
+              },
+              {
+                     "projectID": 306676,
+                     "fileID": 3604905,
+                     "required": true
+              },
+              {
+                     "projectID": 226447,
+                     "fileID": 2477566,
+                     "required": true
+              },
+              {
+                     "projectID": 282988,
+                     "fileID": 2598021,
+                     "required": true
+              },
+              {
+                     "projectID": 71738,
+                     "fileID": 2661618,
+                     "required": true
+              },
+              {
+                     "projectID": 74072,
+                     "fileID": 2902483,
+                     "required": true
+              },
+              {
+                     "projectID": 244870,
+                     "fileID": 2710209,
+                     "required": true
+              },
+              {
+                     "projectID": 245211,
+                     "fileID": 2667280,
+                     "required": true
+              },
+              {
+                     "projectID": 272671,
+                     "fileID": 2843439,
+                     "required": true
+              },
+              {
+                     "projectID": 285238,
+                     "fileID": 2843514,
+                     "required": true
+              },
+              {
+                     "projectID": 545353,
+                     "fileID": 3519479,
+                     "required": true
+              }
+       ]
+}
