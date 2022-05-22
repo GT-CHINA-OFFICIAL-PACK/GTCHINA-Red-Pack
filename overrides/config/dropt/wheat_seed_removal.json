@@ -1,0 +1,20 @@
+{
+       "rules": [
+         {
+           "match": {
+             "blocks": {
+               "blocks": [
+                 "minecraft:wheat:7"
+               ]
+             },
+             "drops": {
+               "drops": [
+                 "minecraft:wheat_seeds"
+               ]
+             }
+           },
+           "replaceStrategy": "REPLACE_ITEMS",
+           "drops": [{}]
+         }
+       ]
+     }

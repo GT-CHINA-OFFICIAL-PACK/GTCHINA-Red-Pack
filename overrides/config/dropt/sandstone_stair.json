@@ -1,0 +1,36 @@
+{
+       "rules": [
+         {
+           "match": {
+             "blocks": {
+               "blocks": [
+                "minecraft:sandstone_stairs:*"
+               ]
+             },
+             "harvester": {
+               "type": "PLAYER",
+               "heldItemMainHand": {
+                 "type": "WHITELIST",
+                 "harvestLevel": "pickaxe;-1;0"
+               }
+             }
+           },
+           "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+           "drops": [{
+              "selector": {
+                     "silktouch": "EXCLUDED"
+                   },
+                "item": {
+                  "items" : [
+                    "pyrotech:rock:6"
+                  ],
+                  "quantity": {
+                         "min": 18,
+                         "max": 27
+                  }
+                }
+              }
+            ]
+         }
+       ]
+     }

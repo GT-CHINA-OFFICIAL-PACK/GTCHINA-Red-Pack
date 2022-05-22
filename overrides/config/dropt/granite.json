@@ -1,0 +1,38 @@
+{
+       "rules": [
+         {
+           "match": {
+             "blocks": {
+               "blocks": [
+                 "minecraft:stone:1",
+                 "minecraft:stone:2",
+                 "pyrotech:cobblestone:2"
+               ]
+             },
+             "harvester": {
+               "type": "PLAYER",
+               "heldItemMainHand": {
+                 "type": "WHITELIST",
+                 "harvestLevel": "pickaxe;-1;0"
+               }
+             }
+           },
+           "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+           "drops": [{
+              "selector": {
+                     "silktouch": "EXCLUDED"
+                   },
+                "item": {
+                  "items" : [
+                    "pyrotech:rock:1"
+                  ],
+                  "quantity": {
+                         "min": 24,
+                         "max": 32
+                  }
+                }
+              }
+            ]
+         }
+       ]
+     }

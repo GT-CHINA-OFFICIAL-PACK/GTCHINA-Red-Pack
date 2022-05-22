@@ -1,0 +1,33 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "LooseGrass",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:tallgrass",
+                            "meta": 1
+			},
+			"clicktype": "right_click",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_empty_hand"
+				},
+                            {
+                                   "type": "swing_hand",
+                                   "disableJEI": true
+                            },
+                            {
+                                   "type": "consume_block",
+                                   "name": "terraqueous:hay",
+                                   "meta": 15
+                            }
+			]
+		}
+	]
+}

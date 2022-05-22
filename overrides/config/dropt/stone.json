@@ -1,0 +1,39 @@
+{
+       "rules": [
+         {
+           "match": {
+             "blocks": {
+               "blocks": [
+                 "minecraft:stone:0",
+                 "minecraft:cobblestone",
+                 "minecraft:mossy_cobblestone",
+                 "minecraft:stonebrick:*"
+               ]
+             },
+             "harvester": {
+               "type": "PLAYER",
+               "heldItemMainHand": {
+                 "type": "WHITELIST",
+                 "harvestLevel": "pickaxe;-1;0"
+               }
+             }
+           },
+           "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+           "drops": [{
+              "selector": {
+                     "silktouch": "EXCLUDED"
+                   },
+                "item": {
+                  "items" : [
+                    "pyrotech:rock:0"
+                  ],
+                  "quantity": {
+                         "min": 24,
+                         "max": 32
+                  }
+                }
+              }
+            ]
+         }
+       ]
+     }
