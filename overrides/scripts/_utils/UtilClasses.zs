@@ -265,7 +265,11 @@ frigginClass RecipeUtil {
        }
 
        // Don't ask me why tempRecipes needs these while build functions don't
-       function build(ingredients as IIngredient[]) as IIngredient[] { ingredients; }
+       function build(ingredients as IIngredient[]) as IIngredient[] {
+              var ings as IIngredient[] = [];
+              for i in ingredients { ings += i; }
+              return ings;
+       }
 
        function tempRecipe(output as IItemStack, inputs as IIngredient[][]) {
               recipes.addShaped(output.withLore([TEMP]), inputs, function(out, ins, cInfo) { return output; } as IRecipeFunction, null);
