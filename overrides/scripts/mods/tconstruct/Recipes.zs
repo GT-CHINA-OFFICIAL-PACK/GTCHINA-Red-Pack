@@ -1,5 +1,10 @@
 import mods.primal.Flake as PFlaking;
 
+// Wood Tool Parts
+val woodBinding = <tconstruct:binding>.withTag({Material: "wood"});
+
+recipes.addShapeless("ticon.binding-wood", woodBinding, []);
+
 // Stone Tool Parts
 val rock = <ore:rock>;
 val rockShard = <tconstruct:shard>.withTag({Material: "stone"});

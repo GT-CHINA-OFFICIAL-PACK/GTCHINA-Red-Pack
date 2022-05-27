@@ -1,7 +1,7 @@
 #loader preInit
 
 import contentcreator.item.Item;
-import contentcreator.item.ValueItem;
+import contentcreator.item.SubItem;
 
 static META as int = 0;
 
@@ -10,8 +10,8 @@ function meta() as int {
        META = META + 1;
 }
 
-function value(name as string) as ValueItem {
-       return ValueItem.create(meta()).setUnlocalizedName(name);
+function sub(name as string) as SubItem {
+       return Item.sub(meta()).setUnlocalizedName(name);
 }
 
-Item.create("material").addItem(value("valus_twine"), value("twig"), value("twig_yew"), value("twig_ironwood"), value("spider_twine"), value("rock_pick_head"), value("rock_axe_head"), value("rock_hoe_head"), value("rock_shovel_head"), value("rock_hammer_head")).register();
+Item.create("material").add(sub("valus_twine"), sub("twig"), sub("twig_yew"), sub("twig_ironwood"), sub("spider_twine"), sub("rock_pick_head"), sub("rock_axe_head"), sub("rock_hoe_head"), sub("rock_shovel_head"), sub("rock_hammer_head"), sub("wood_plating"), sub("worktable_grid")).register();

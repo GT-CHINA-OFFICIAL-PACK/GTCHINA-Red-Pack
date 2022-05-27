@@ -4,3 +4,5 @@
 // PrimalCore
 
 // Pyrotech
+mods.pyrotech.CompactingBin.removeAllRecipes();
+mods.pyrotech.MechanicalCompactor.removeAllRecipes();
